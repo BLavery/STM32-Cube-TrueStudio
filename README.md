@@ -13,7 +13,7 @@ Boards used:
  
 After trialing several eclipse versions, I settled on ST/Atollic/TrueStudio as current support, free, easiest to integrate with Cube.
 
-Cube generates C setup code, not C++. TrueStudio/Eclipse can be adjusted to allow C++ for user code.
+CubeMX generates HAL-based setup code in C, not C++. TrueStudio/Eclipse can be adjusted to allow C++ for user code.
 C code suits F030, as C++ code is too big for limited flash space.
 C++ or C/C++ mix work very happily with the other boards.
 
