@@ -64,6 +64,8 @@ Install.
 
 Time to start up.
 Run CubeMX. "Start my project from MCU selector". Pick your MCU.
+CubeMX is a whole world in itself. However once you get used to it, ten minutes should get you initially set up for a new project. You can easily revisit to make changes. The following is inadequate info for setting up. Find documentation or HOWTO info from online.
+
 4 tabs. Start with Pinout and Config. Work your way through all options needed.
 Ensure RCC selects clock crystals used on your board. 
 Tab2: Clock config. Ensure your crystals (LSE HSE) are active. 
@@ -72,7 +74,7 @@ Tab3: Project Manager. Project location, the folder you created above. Give a pr
 Toolchain TrueStudio, structure Basic.
 All ready? "Generate Code" at top right.
 
-TrueStudio probably self starts. If not, start and "Import" what you just wrote to your workspace.
+TrueStudio possibly self starts. If not, start and "Import" what you just wrote to your workspace.
 Go for broke? With your project now open, "Project - Build Project"
 Get the Console tab low centre, and you should see a line per compile step, or errors if any.
 You want a "Build finished" with no errors.
@@ -88,4 +90,4 @@ So go back to the main.c in your project, add a line or two of C to turn on a LE
 Put your code between a suitable pair of USER CODE BEGIN and USER CODE END comments. 
 That way, CubeMX will not erase your code lines next Generate Code action.
  
-**MORE DETAIL?  SORRY, STILL COMING.MIGHT BE A WHILE**
+**MORE DETAIL?  SORRY, STILL COMING. MIGHT BE A WHILE**
