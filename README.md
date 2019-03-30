@@ -91,3 +91,13 @@ Put your code between a suitable pair of USER CODE BEGIN and USER CODE END comme
 That way, CubeMX will not erase your code lines next Generate Code action.
  
 **MORE DETAIL?  SORRY, STILL COMING. MIGHT BE A WHILE**
+
+More stm32CubeMX guidelines 
+Configuring TrueStudio to allow C++ in addition to C 
+Quarantining your user code away from the main.c and startup code generated (and alterable) by stm32CubeMX. 
+Simple user code examples: 
+ - printf (C)
+ - oled display
+ - TFT display
+ - GPIO primitives like arduino
+ - micros()
