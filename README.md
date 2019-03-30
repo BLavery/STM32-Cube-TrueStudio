@@ -96,7 +96,7 @@ More stm32CubeMX guidelines
 Configuring TrueStudio to allow C++ in addition to C   
 Quarantining your user code away from the main.c and startup code generated (and alterable) by stm32CubeMX.   
 Simple user code examples:   
- - printf (C)
+ - serial printf (C)
  - oled display
  - TFT display
  - GPIO primitives like arduino
