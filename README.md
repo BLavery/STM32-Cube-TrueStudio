@@ -6,7 +6,7 @@ Simplest STM32 programming using Cube and TrueStudio
 
 Using cheap STM32 boards with free software, C/C++ code, ST's CubeMX configurator, Eclipse IDE, and CubeProgrammer.
 
-Boards used:
+Boards tested:
  - STM32F030F4P6
  - STM32F103 BluePill
  - STM32F407VG
