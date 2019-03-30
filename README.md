@@ -52,7 +52,7 @@ Download stm32cubemx, install and start.
 "Install/remove embedded packages" - Install for F0 F1 F4, or your own choice for your board families.
 You have the option to choose the folder for this "repository". See Help-Updater Settings.
 
-Still on www.st.com, find and download stm32Programmer. Install.
+Still on www.st.com, find and download stm32Programmer. Install. STlink drivers are included.
 Plug in your STlink and start the programmer. 
 Try to connect to STlink with programmer. 
 You will likely be asked to do a Firmware Upgrade for the STlink.
