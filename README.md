@@ -19,9 +19,7 @@ C++ or C/C++ mix work very happily with the other boards.
 
 Knocking together user C and C++ code for ...
 
- - serial printf, 
- - oled display, 
- - small tft display, 
+ - printf and some small displays, 
  - some GPIO primitives that have an arduino ready-to-go feel, 
  - and millis() micros() sleep() and delayMicroseconds()
  
@@ -47,7 +45,7 @@ You are going to use this folder for each project:
  - CubeProgrammer to flash your MCU from
 
 Register with www.st.com.
-Logged in to www.st.com, do a browser search for "stm32 cubemx"
+Logged in to www.st.com, do a browser search for "stm32 cubemx".
 Download stm32cubemx, install and start.
 "Install/remove embedded packages" - Install for F0 F1 F4, or your own choice for your board families.
 You have the option to choose the folder for this "repository". See Help-Updater Settings.
@@ -75,7 +73,7 @@ Toolchain TrueStudio, structure Basic.
 All ready? "Generate Code" at top right.
 
 TrueStudio possibly self starts. If not, start and "Import" what you just wrote to your workspace.
-Go for broke? With your project now open, "Project - Build Project"
+Go for broke? With your project now open, "Project - Build Project".
 Get the Console tab low centre, and you should see a line per compile step, or errors if any.
 You want a "Build finished" with no errors.
 
@@ -86,7 +84,7 @@ Click Download. Your board has been flashed. Shame it doesn't have code to show 
 But your IDE system works.
 
 So go back to the main.c in your project, add a line or two of C to turn on a LED.
-(You will need to consult the HAL document for your MCU family from ST.)
+(You will need to consult the HAL document for your MCU family from ST. Google for "Description of STM32F1 HAL pdf", or F0 or F4 to suit. Expect over a thousand pages!)
 Put your code between a suitable pair of USER CODE BEGIN and USER CODE END comments. 
 That way, CubeMX will not erase your code lines next Generate Code action.
  
