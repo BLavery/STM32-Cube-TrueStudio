@@ -33,7 +33,7 @@ And we can use Cube to repeatedly change chip or pin options, without messing ou
 
 But for bigger control, we will need to start doing some more serious coding/cutting/porting/debugging because ready-to-use libraries (a la arduino) are not just waiting somewhere!
  
-# VERY BARE OUTLINE:
+# SETUP: VERY BARE OUTLINE:
 
 *This info is from memory only, from investigations of several months ago. There are doubtless lots of further steps and tips you will have to discover for yourself for now.*
 
