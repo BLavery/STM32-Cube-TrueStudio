@@ -17,7 +17,7 @@ CubeMX generates HAL-based setup code in C, not C++. TrueStudio/Eclipse can be a
 C code suits F030, as C++ code is too big for limited flash space.
 C++ or C/C++ mix work very happily with the other boards.
 
-Knocking together user C++ code for ...
+Knocking together user C and C++ code for ...
 
  - serial printf, 
  - oled display, 
