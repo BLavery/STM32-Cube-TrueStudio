@@ -1,6 +1,8 @@
 # STM32-Cube-TrueStudio
 Simplest STM32 programming using Cube and TrueStudio
 
+## 2019 - This is no longer being maintained by the original author.
+## Please feel free to fork, copy, adapt if you find it useable
 
 ## SUMMARY ONLY
 
